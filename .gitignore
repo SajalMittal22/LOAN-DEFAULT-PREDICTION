@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# MLflow
+mlruns/
+mlflow.db
+
+# System files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
